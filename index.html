@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Embed multimedia</title>
+  </head>
+  <body>
+    <h1>Use of object tags in html</h1>
+    <h2>1.Embed pdf in html using object</h2>
+  <object data="./Assets/pdf/India_Poltical_Map.pdf" type="application/pdf"
+        width="200" height="200">
+  <p>You don't have a PDF plugin, but you can
+    <a href="./Assets/pdf/India_Poltical_Map.pdf">download the PDF file.
+    </a>
+  </p>
+</object>
+
+    <div class="object-img">
+      <h2>2.Embed image in html using object</h2>
+      <object data="./Assets/Images/tree.jpg" width="300" height="200"></object>
+    </div>
+
+    <div class="object-html">
+      <h2>3.Embed the html using object tag</h2>
+      <object data="data.html" width="500" height="200"></object>
+    </div>
+<hr>
+    </div>
+    <h1>Use of Iframes</h1>
+    <h2>1.USe of iframe in embed html</h2>
+    <iframe src="data.html" height="200" width="300" title="Iframe Example"></iframe>
+    <h2>2.Use of iframe in embed website external</h2>
+
+<iframe src="https://kalvieducation.com/"
+          width="50%" height="300px" allowfullscreen sandbox>
+   
+  </iframe>
+
+  <h2>3.use of iframe to embed pdf</h2>
+  <object data="./Assets/pdf/India_Poltical_Map.pdf" type="application/pdf">
+    <iframe src="https://drive.google.com/file/d/13ONZoHPbhHjBzwx_OhtLylLDx1arWqCy/view?usp=sharing"></iframe>
+</object>
+
+  <hr>
+
+
+  </body>
+</html>
