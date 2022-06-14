@@ -5,9 +5,41 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Embed multimedia</title>
+    <style>
+      h1 {
+        text-align: center;
+      }
+    </style>
   </head>
   <body>
-    <h1>Use of object tags in html</h1>
+    <h1>Elephant Conservation</h1>
+    <img
+      src="https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/story_full_width/qxyqxqjtu_WW187785.jpg"
+      alt="Elephant"
+      width="100%"
+      height="500px"
+    />
+    <!-- Object for pdf -->
+    <object
+      data="./Assets/pdf/White_Paper_Elephant_Rights_formatted.pdf"
+      type="application/pdf"
+      width="200"
+      height="200"
+    >
+      <p>
+       <h2> Elephant rights pdf</h2>
+        <a href="./Assets/pdf/White_Paper_Elephant_Rights_formatted.pdf"
+          >download the PDF file.
+        </a>
+      </p>
+    </object>
+    <h2>Take a pledge to support elephant conservation</h2>
+
+    <iframe src="https://worldelephantday.org/?gclid=CjwKCAjw46CVBhB1EiwAgy6M4hAnPY6fFQmZsKtN3HGX_NlC6dI6axc46vp2l_q_uVOnq2wJz-AJwxoCWtIQAvD_BwE"
+          width="50%" height="300px" allowfullscreen sandbox>
+   
+  </iframe>
+    <!-- <h1>Use of object tags in html</h1>
     <h2>1.Embed pdf in html using object</h2>
   <object data="./Assets/pdf/India_Poltical_Map.pdf" type="application/pdf"
         width="200" height="200">
@@ -43,8 +75,6 @@
     <iframe src="https://drive.google.com/file/d/13ONZoHPbhHjBzwx_OhtLylLDx1arWqCy/view?usp=sharing"></iframe>
 </object>
 
-  <hr>
-
-
+  <hr> -->
   </body>
 </html>
