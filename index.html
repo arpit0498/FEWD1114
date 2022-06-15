@@ -7,7 +7,17 @@
     <title>Embed multimedia</title>
     <style>
       h1 {
-        text-align: center;
+        color: #000000;
+      }
+      .pdf {
+        margin-left: 30vw;
+      }
+      .frame {
+        margin-left: 30vw;
+      }
+      body {
+        background-color: #abe9cd;
+        background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
       }
     </style>
   </head>
@@ -20,7 +30,7 @@
         height="500px"
       ></object>
     </div>
-    <div>
+    <div class="pdf">
       <h2>Elephant rights pdf</h2>
       <!-- Object for pdf -->
       <object
@@ -37,16 +47,18 @@
       </object>
     </div>
 
-    <h2>Take a pledge to support elephant conservation</h2>
+    <div class="frame">
+      <h2>Take a pledge to support elephant conservation</h2>
+      <iframe
+        src="https://worldelephantday.org/?gclid=CjwKCAjw46CVBhB1EiwAgy6M4hAnPY6fFQmZsKtN3HGX_NlC6dI6axc46vp2l_q_uVOnq2wJz-AJwxoCWtIQAvD_BwE"
+        width="50%"
+        height="300px"
+        allowfullscreen
+        sandbox
+      >
+      </iframe>
+    </div>
 
-    <iframe
-      src="https://worldelephantday.org/?gclid=CjwKCAjw46CVBhB1EiwAgy6M4hAnPY6fFQmZsKtN3HGX_NlC6dI6axc46vp2l_q_uVOnq2wJz-AJwxoCWtIQAvD_BwE"
-      width="50%"
-      height="300px"
-      allowfullscreen
-      sandbox
-    >
-    </iframe>
     <!-- <h1>Use of object tags in html</h1>
     <h2>1.Embed pdf in html using object</h2>
   <object data="./Assets/pdf/India_Poltical_Map.pdf" type="application/pdf"
