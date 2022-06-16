@@ -4,26 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Embed multimedia</title>
-    <style>
-      h1 {
-        color: #000000;
-      }
-      .pdf {
-        margin-left: 30vw;
-      }
-      .frame {
-        margin-left: 30vw;
-      }
-      body {
-        background-color: #abe9cd;
-        background-image: linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%);
-      }
-    </style>
+    <title>Conservation</title>
+    <link rel="stylesheet" href="./index.css" />
   </head>
   <body>
-    <h1>Elephant Conservation</h1>
-    <div>
+    <div class="image">
+      <h1>Conservation of Elephant</h1>
+      <!-- Iteration 1: Use of object tag for embedding image -->
+      <!-- Image link:https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/story_full_width/qxyqxqjtu_WW187785.jpg -->
       <object
         data="https://files.worldwildlife.org/wwfcmsprod/images/African_Elephant_Kenya_112367/story_full_width/qxyqxqjtu_WW187785.jpg"
         width="100%"
@@ -32,7 +20,8 @@
     </div>
     <div class="pdf">
       <h2>Elephant rights pdf</h2>
-      <!-- Object for pdf -->
+      <!-- Iteration 2: Use of object tag for embedding pdf-->
+      <!-- pdf is present in assets folder -->
       <object
         data="./Assets/pdf/White_Paper_Elephant_Rights_formatted.pdf"
         type="application/pdf"
@@ -46,6 +35,11 @@
         </p>
       </object>
     </div>
+    <!-- Iteration 3: Use of iframe for embedding website-->
+    <!-- Iteration 4: Use of sandbox attribute -->
+    <!-- Iteration 5: Use of secure protocol system  -->
+
+    <!-- Website Link :https://worldelephantday.org/?gclid=CjwKCAjw46CVBhB1EiwAgy6M4hAnPY6fFQmZsKtN3HGX_NlC6dI6axc46vp2l_q_uVOnq2wJz-AJwxoCWtIQAvD_BwE -->
 
     <div class="frame">
       <h2>Take a pledge to support elephant conservation</h2>
@@ -58,43 +52,5 @@
       >
       </iframe>
     </div>
-
-    <!-- <h1>Use of object tags in html</h1>
-    <h2>1.Embed pdf in html using object</h2>
-  <object data="./Assets/pdf/India_Poltical_Map.pdf" type="application/pdf"
-        width="200" height="200">
-  <p>You don't have a PDF plugin, but you can
-    <a href="./Assets/pdf/India_Poltical_Map.pdf">download the PDF file.
-    </a>
-  </p>
-</object>
-
-    <div class="object-img">
-      <h2>2.Embed image in html using object</h2>
-      <object data="./Assets/Images/tree.jpg" width="300" height="200"></object>
-    </div>
-
-    <div class="object-html">
-      <h2>3.Embed the html using object tag</h2>
-      <object data="data.html" width="500" height="200"></object>
-    </div>
-<hr>
-    </div>
-    <h1>Use of Iframes</h1>
-    <h2>1.USe of iframe in embed html</h2>
-    <iframe src="data.html" height="200" width="300" title="Iframe Example"></iframe>
-    <h2>2.Use of iframe in embed website external</h2>
-
-<iframe src="https://kalvieducation.com/"
-          width="50%" height="300px" allowfullscreen sandbox>
-   
-  </iframe>
-
-  <h2>3.use of iframe to embed pdf</h2>
-  <object data="./Assets/pdf/India_Poltical_Map.pdf" type="application/pdf">
-    <iframe src="https://drive.google.com/file/d/13ONZoHPbhHjBzwx_OhtLylLDx1arWqCy/view?usp=sharing"></iframe>
-</object>
-
-  <hr> -->
   </body>
 </html>
